@@ -11,6 +11,7 @@ Bundle 'gmarik/vundle'
 " repos
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'tpope/vim-rails.git'
+Bundle 'scrooloose/nerdtree'
 
 filetype plugin indent on	" required
 
