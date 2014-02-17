@@ -1,4 +1,6 @@
-set nocompatible                " choose no compatibility with legacy vi
+source .set_vundle_vimrc	      " Setup vundle
+
+" set nocompatible              " choose no compatibility with legacy vi
 syntax enable
 set encoding=utf-8
 set showcmd                     " display incomplete commands
@@ -15,9 +17,6 @@ set hlsearch                    " highlight matches
 set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
-
-"" Pathogen
-execute pathogen#infect()
 
 "" Solarize
 set background=dark
