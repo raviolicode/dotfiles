@@ -1,4 +1,20 @@
-source .set_vundle_vimrc	      " Setup vundle
+"" Vundle Setup
+set nocompatible
+filetype off 			" required for Vundle
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+Bundle 'gmarik/vundle'
+
+" repos
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'tpope/vim-rails.git'
+
+filetype plugin indent on	" required
+
+"" End Vundle Setup
 
 " set nocompatible              " choose no compatibility with legacy vi
 syntax enable
